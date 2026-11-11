@@ -1,0 +1,14 @@
+[
+  {
+    "assetCode": "BTC",
+    "logoUrl": "https://static.apollox.com/image/admin_mgs_image_upload/20251010/1d7eca3f-2cc2-4d20-b39e-e93e104efc38.png"
+  },
+  {
+    "assetCode": "ETH",
+    "logoUrl": "https://static.apollox.com/image/admin_mgs_image_upload/20251010/29537d4d-7a9e-4074-baed-60ba2b9a40ce.png"
+  },
+  {
+    "assetCode": "ADA",
+    "logoUrl": "https://static.apollox.com/image/admin_mgs_image_upload/20251010/933a0f63-d349-4cec-b1c0-abf630783bb9.png"
+  }
+]

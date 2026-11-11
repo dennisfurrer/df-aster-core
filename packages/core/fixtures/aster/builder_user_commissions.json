@@ -1,0 +1,19 @@
+{
+ "total": 42,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 50,
+ "hasMore": false,
+ "rows": [
+  {
+   "tradeId": 698759,
+   "insertTime": 1751500000000,
+   "orderId": 25851813,
+   "symbol": "BTCUSDT",
+   "feeAsset": "USDT",
+   "marginAsset": "USDT",
+   "builderFee": "0.00050000",
+   "userAddress": "0x1234...abcd"
+  }
+ ]
+}

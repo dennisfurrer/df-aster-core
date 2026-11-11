@@ -1,0 +1,30 @@
+{
+ "total": 42,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 50,
+ "hasMore": false,
+ "rows": [
+  {
+   "tradeId": 698759,
+   "insertTime": 1751500000000,
+   "symbol": "BTCUSDT",
+   "positionSide": "SHORT",
+   "price": "7819.01",
+   "qty": "0.002",
+   "baseAsset": "BTC",
+   "baseType": "CRYPTO",
+   "quoteAsset": "USDT",
+   "side": "SELL",
+   "activeBuy": false,
+   "feeAsset": "USDT",
+   "totalQuota": "15.63802",
+   "fee": "-0.07819010",
+   "orderId": 25851813,
+   "realizedProfit": "-0.91539999",
+   "marginAsset": "USDT",
+   "userAddress": "0x1234...abcd",
+   "builderFee": "0.00050000"
+  }
+ ]
+}

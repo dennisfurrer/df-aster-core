@@ -1,0 +1,15 @@
+{
+ "total": 1,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 50,
+ "hasMore": false,
+ "rows": [
+  {
+   "address": "0x1234...abcd",
+   "symbol": "BTCUSDT",
+   "makerCommissionRate": "0.0002",
+   "takerCommissionRate": "0.0004"
+  }
+ ]
+}

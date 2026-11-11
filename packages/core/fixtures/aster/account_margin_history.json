@@ -1,0 +1,22 @@
+[
+ {
+  "amount": "23.36332311",
+  "asset": "USDT",
+  "symbol": "BTCUSDT",
+  "time": 1578047897183,
+  "type": 1,
+  "positionSide": "BOTH",
+  "deltaType": "TRADE",
+  "clientTranId": ""
+ },
+ {
+  "amount": "100",
+  "asset": "USDT",
+  "symbol": "BTCUSDT",
+  "time": 1578047900425,
+  "type": 1,
+  "positionSide": "LONG",
+  "deltaType": "USER_ADJUST",
+  "clientTranId": ""
+ }
+]

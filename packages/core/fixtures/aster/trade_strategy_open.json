@@ -1,0 +1,40 @@
+{
+ "strategyId": 123456789,
+ "clientStrategyId": "myStrategy1",
+ "strategyType": "OTO",
+ "strategyStatus": "WORKING",
+ "bookTime": 1699900000000,
+ "updateTime": 1699900001000,
+ "subOrders": [
+  {
+   "strategyId": 123456789,
+   "orderId": 987654321,
+   "clientOrderId": "myOrder1",
+   "status": "NEW",
+   "strategySubId": 1,
+   "firstDrivenId": 0,
+   "firstDrivenOn": "",
+   "firstTrigger": "",
+   "secondDrivenId": 0,
+   "secondDrivenOn": "",
+   "secondTrigger": "",
+   "securityType": "FUTURE",
+   "symbol": "BTCUSDT",
+   "side": "BUY",
+   "positionSide": "LONG",
+   "type": "LIMIT",
+   "timeInForce": "GTC",
+   "quantity": "0.001",
+   "reduceOnly": false,
+   "closePosition": false,
+   "price": "50000",
+   "avgPrice": "0",
+   "priceProtect": false,
+   "stopPrice": "0",
+   "activatePrice": null,
+   "callbackRate": null,
+   "workingType": "CONTRACT_PRICE",
+   "triggerTime": 0
+  }
+ ]
+}

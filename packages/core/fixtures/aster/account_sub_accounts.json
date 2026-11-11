@@ -1,0 +1,12 @@
+[
+ {
+  "accountId": 123456,
+  "subAccountName": "trading-desk-1",
+  "parentAccount": false
+ },
+ {
+  "accountId": 100000,
+  "subAccountName": "",
+  "parentAccount": true
+ }
+]

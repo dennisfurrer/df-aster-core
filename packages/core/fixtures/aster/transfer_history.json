@@ -1,0 +1,1 @@
+[{"id":"12345","type":"WITHDRAW","asset":"USDT","amount":"100","state":"COMPLETED","txHash":"0xabc123...","time":1699900800000,"chainId":1,"accountType":"perp"}]

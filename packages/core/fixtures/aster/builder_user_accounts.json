@@ -1,0 +1,29 @@
+{
+ "total": 2,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 50,
+ "hasMore": false,
+ "rows": [
+  {
+   "address": "0x1234...abcd",
+   "feeTier": 0,
+   "canTrade": true,
+   "canDeposit": true,
+   "canWithdraw": true,
+   "updateTime": 1751500000000,
+   "accountType": 0,
+   "dualSidePosition": false,
+   "jointMargin": false,
+   "feeBurn": false,
+   "feeBurnAssetId": 0,
+   "symbolConfig": [
+    {
+     "symbol": "BTCUSDT",
+     "leverage": 20,
+     "notionalLimitCoef": "10"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+[
+ {
+  "symbol": "BTCUSDT",
+  "windowTimeInMilliseconds": 5000,
+  "frozenTimeInMilliseconds": 10000,
+  "qtyLimit": 10,
+  "valueLimit": 200000000,
+  "deltaLimit": 100000000
+ }
+]

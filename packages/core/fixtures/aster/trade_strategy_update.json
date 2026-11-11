@@ -1,0 +1,13 @@
+[
+ {
+  "strategyId": 123456789,
+  "clientStrategyId": "myStrategy1",
+  "strategyType": "OTO",
+  "strategyStatus": "WORKING",
+  "updatedSubOrder": 1,
+  "updateStatus": "SUCCESS",
+  "updateTime": 1699900000000,
+  "failureCode": 0,
+  "failureReason": ""
+ }
+]

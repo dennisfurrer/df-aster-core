@@ -1,0 +1,184 @@
+{
+ "source": "globe.li src/lib/perps/sdk/adapter/aster/trading.ts approveAgent and src/lib/perps/sdk/lib/aster/authenticated-rest.ts, run with fetch stubbed, Date.now and Math.random pinned",
+ "keys": {
+  "main": "keccak256(\"atlas aster main\")",
+  "agent": "keccak256(\"atlas aster agent\")"
+ },
+ "now": 1790000000000,
+ "random": 0.5,
+ "approve": {
+  "ok": true,
+  "mainAddress": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+  "agentAddress": "0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+  "typedData": {
+   "domain": {
+    "name": "AsterSignTransaction",
+    "version": "1",
+    "chainId": 56,
+    "verifyingContract": "0x0000000000000000000000000000000000000000"
+   },
+   "types": {
+    "ApproveAgent": [
+     {
+      "name": "AgentName",
+      "type": "string"
+     },
+     {
+      "name": "AgentAddress",
+      "type": "string"
+     },
+     {
+      "name": "IpWhitelist",
+      "type": "string"
+     },
+     {
+      "name": "Expired",
+      "type": "uint256"
+     },
+     {
+      "name": "CanSpotTrade",
+      "type": "bool"
+     },
+     {
+      "name": "CanPerpTrade",
+      "type": "bool"
+     },
+     {
+      "name": "CanWithdraw",
+      "type": "bool"
+     },
+     {
+      "name": "AsterChain",
+      "type": "string"
+     },
+     {
+      "name": "User",
+      "type": "string"
+     },
+     {
+      "name": "Nonce",
+      "type": "uint256"
+     }
+    ]
+   },
+   "primaryType": "ApproveAgent",
+   "message": {
+    "AgentName": "globeli",
+    "AgentAddress": "0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+    "IpWhitelist": "",
+    "Expired": 1792592000000,
+    "CanSpotTrade": false,
+    "CanPerpTrade": true,
+    "CanWithdraw": false,
+    "AsterChain": "Mainnet",
+    "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "Nonce": 1790000000000000
+   }
+  },
+  "signingHash": "0x457dffaba24ae46df770226b3832c40dd2ed5a7e6ffdf353aa5d92a4def5e56c",
+  "signature": "0x7a378a13f048898b2154c67dc7737fbd51ea6aaad167a0f925a3c2e6c2fbb22237e11a138fb86247a1fc2c07033a11c43638f879383b64611696e45e10e822261c",
+  "request": {
+   "url": "https://fapi.asterdex.com/fapi/v3/approveAgent?agentName=globeli&agentAddress=0xe0a5193404A0f6d94c087169c539eB0180FCf828&ipWhitelist=&expired=1792592000000&canSpotTrade=false&canPerpTrade=true&canWithdraw=false&asterChain=Mainnet&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&nonce=1790000000000000&signature=0x7a378a13f048898b2154c67dc7737fbd51ea6aaad167a0f925a3c2e6c2fbb22237e11a138fb86247a1fc2c07033a11c43638f879383b64611696e45e10e822261c&signatureChainId=56",
+   "method": "POST",
+   "body": null
+  }
+ },
+ "trades": [
+  {
+   "name": "limit",
+   "nonce": "1790000001000500",
+   "msg": "symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.002&price=83000.1&timeInForce=GTC&reduceOnly=false&newOrderRespType=RESULT&nonce=1790000001000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0x4918ad2155146349d861e10c922d05fde9b8f7fc69fa6174d316632d07ec9e88",
+   "signature": "0x459309357314d28372fa322e9096dd2cd1d123eb543f352f4535afc4782535845fd42548f2a7ef766429c773d3621612811f237acd0611863ebd136eb0d275671b",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/order",
+    "method": "POST",
+    "body": "symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.002&price=83000.1&timeInForce=GTC&reduceOnly=false&newOrderRespType=RESULT&nonce=1790000001000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0x459309357314d28372fa322e9096dd2cd1d123eb543f352f4535afc4782535845fd42548f2a7ef766429c773d3621612811f237acd0611863ebd136eb0d275671b"
+   }
+  },
+  {
+   "name": "market_reduce_only",
+   "nonce": "1790000002000500",
+   "msg": "symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.5&reduceOnly=true&newOrderRespType=RESULT&nonce=1790000002000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0x90f3439f33596acc71e432b497ac0ed86f0eab2323e353bf4f1b47434d1794f8",
+   "signature": "0x277819bc7062d648ed839352075ece83631d56917dd6b39480cc8e7d3756c3f061435b899d0a94511fb96efdabb9c859769ff1332c7c4d133d7c47314a4b63a11c",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/order",
+    "method": "POST",
+    "body": "symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.5&reduceOnly=true&newOrderRespType=RESULT&nonce=1790000002000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0x277819bc7062d648ed839352075ece83631d56917dd6b39480cc8e7d3756c3f061435b899d0a94511fb96efdabb9c859769ff1332c7c4d133d7c47314a4b63a11c"
+   }
+  },
+  {
+   "name": "stop_market",
+   "nonce": "1790000003000500",
+   "msg": "symbol=BTCUSDT&side=SELL&type=STOP_MARKET&quantity=0.002&stopPrice=80000&reduceOnly=true&newOrderRespType=RESULT&nonce=1790000003000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0x7dc7afb32b2e6e46cec84e5fcda795bd3fc4b700a380c1bf38045de705edf454",
+   "signature": "0x49e790a6d14ce5e3fc66bf61de9072c3ca6e1900876163680e768cde0355681d0298617a8798d9969dbab86790d2251da4641db10533d968169f0031743c6af51b",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/order",
+    "method": "POST",
+    "body": "symbol=BTCUSDT&side=SELL&type=STOP_MARKET&quantity=0.002&stopPrice=80000&reduceOnly=true&newOrderRespType=RESULT&nonce=1790000003000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0x49e790a6d14ce5e3fc66bf61de9072c3ca6e1900876163680e768cde0355681d0298617a8798d9969dbab86790d2251da4641db10533d968169f0031743c6af51b"
+   }
+  },
+  {
+   "name": "cjk_symbol",
+   "nonce": "1790000004000500",
+   "msg": "symbol=%E9%BE%99%E8%99%BEUSDT&side=BUY&type=LIMIT&quantity=100&price=0.012345&timeInForce=GTX&reduceOnly=false&newOrderRespType=RESULT&nonce=1790000004000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0x8f0600109c14b6377f7db5b8444d46f20e9e4053348cb288f4870edf3d841875",
+   "signature": "0x7f300f94b161df977759f4134110a1784b2c1b3c90338f38432b06d9e8a0d028559140d6f29dc2463a079e4f678a442995c02fb45a69851cc6edd89ea82f48481b",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/order",
+    "method": "POST",
+    "body": "symbol=%E9%BE%99%E8%99%BEUSDT&side=BUY&type=LIMIT&quantity=100&price=0.012345&timeInForce=GTX&reduceOnly=false&newOrderRespType=RESULT&nonce=1790000004000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0x7f300f94b161df977759f4134110a1784b2c1b3c90338f38432b06d9e8a0d028559140d6f29dc2463a079e4f678a442995c02fb45a69851cc6edd89ea82f48481b"
+   }
+  },
+  {
+   "name": "cancel",
+   "nonce": "1790000005000500",
+   "msg": "symbol=BTCUSDT&orderId=123456789&nonce=1790000005000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0xf6df97c171a9601ba8662fdedee7ce140cc24209b8b8267b69a9b63590fdece2",
+   "signature": "0x2b00855c127f47e054fe02f52aef5688cf67be872bf7d58f1e9c1332a9e88b7c671b14f9ae144761ac73033c8b95ed7c38796d2019b88fddef29a3436611c8001c",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/order?symbol=BTCUSDT&orderId=123456789&nonce=1790000005000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0x2b00855c127f47e054fe02f52aef5688cf67be872bf7d58f1e9c1332a9e88b7c671b14f9ae144761ac73033c8b95ed7c38796d2019b88fddef29a3436611c8001c",
+    "method": "DELETE",
+    "body": null
+   }
+  },
+  {
+   "name": "leverage",
+   "nonce": "1790000006000500",
+   "msg": "symbol=BTCUSDT&leverage=10&nonce=1790000006000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0x9598b905c471631769bb43b5df19651cc6eaa578ccf240d9ac45d6acf3329ea5",
+   "signature": "0xde0efa6ae0e0852bcd333efd76c21dc16a571227854d28568f492426aebc1b372112a0c684e5782e6e14f29d02cb2a51a7aa18612575d887feeb18eed3286c0d1c",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/leverage",
+    "method": "POST",
+    "body": "symbol=BTCUSDT&leverage=10&nonce=1790000006000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0xde0efa6ae0e0852bcd333efd76c21dc16a571227854d28568f492426aebc1b372112a0c684e5782e6e14f29d02cb2a51a7aa18612575d887feeb18eed3286c0d1c"
+   }
+  },
+  {
+   "name": "account",
+   "nonce": "1790000007000500",
+   "msg": "nonce=1790000007000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0x570e771ea1da674b5f44d1ac3743684e76798ef2a896e5c5b548db2195a93f54",
+   "signature": "0xff97abf7329a532c5d7213116b7a94dc4603de7f36473f522d5ccbe938b2991015e0e60da1810cf78161ca602c73cc65b6691f80d7b86c5c3661d9f2f18625181c",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/account?nonce=1790000007000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0xff97abf7329a532c5d7213116b7a94dc4603de7f36473f522d5ccbe938b2991015e0e60da1810cf78161ca602c73cc65b6691f80d7b86c5c3661d9f2f18625181c",
+    "method": "GET",
+    "body": null
+   }
+  },
+  {
+   "name": "user_trades",
+   "nonce": "1790000008000500",
+   "msg": "symbol=ETHUSDT&limit=100&nonce=1790000008000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828",
+   "signingHash": "0xac25ef42cc51fdbe0bbfe2aeef43b9b98b13368b38692ae5985c42652fbece6c",
+   "signature": "0x9d448182c0f5f2c35c20a5a86cde2e14a5df38deea90ec8fb390848d5e8f15e32b9f83659bfb73e2eb1fb5657d6eb882dbcace9afaba197bd60dba9b8e5a5bbe1c",
+   "request": {
+    "url": "https://fapi.asterdex.com/fapi/v3/userTrades?symbol=ETHUSDT&limit=100&nonce=1790000008000500&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0xe0a5193404A0f6d94c087169c539eB0180FCf828&signature=0x9d448182c0f5f2c35c20a5a86cde2e14a5df38deea90ec8fb390848d5e8f15e32b9f83659bfb73e2eb1fb5657d6eb882dbcace9afaba197bd60dba9b8e5a5bbe1c",
+    "method": "GET",
+    "body": null
+   }
+  }
+ ]
+}

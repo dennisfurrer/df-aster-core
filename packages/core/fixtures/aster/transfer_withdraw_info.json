@@ -1,0 +1,1 @@
+{"userDailyLimit":"10000","userRemainingDailyLimit":"9500","totalDailyLimit":"100000","totalRemainingDailyLimit":"95000","balances":{"USDT":{"currency":"USDT","spotTotalWithdrawAmount":"0","perpTotalWithdrawAmount":"500","dailyLimit":"5000","chainBalances":{"1":{"chainId":1,"spotMaxWithdrawAmount":"1000","perpMaxWithdrawAmount":"4500","chainLimit":"5000","withdrawFee":"0.5"}}}}}

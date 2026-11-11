@@ -1,0 +1,16 @@
+{
+ "rows": [
+  {
+   "userAddress": "0x1234...abcd",
+   "builderAddress": "0x5678...efgh",
+   "maxFeeRate": 0.0001,
+   "builderName": "MyBuilder",
+   "approveTime": 1768903037082
+  }
+ ],
+ "total": 1,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 100,
+ "hasMore": false
+}

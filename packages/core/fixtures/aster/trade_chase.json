@@ -1,0 +1,18 @@
+{
+ "strategyId": 12345,
+ "clientStrategyId": "my_chase_1",
+ "symbol": "BTCUSDT",
+ "side": "BUY",
+ "positionSide": "BOTH",
+ "quantity": "0.1",
+ "quantityUnit": "BASE",
+ "reduceOnly": false,
+ "chaseOffset": "0.5",
+ "chaseOffsetType": "ABSOLUTE",
+ "maxChaseOffset": "10.0",
+ "maxChaseOffsetType": "ABSOLUTE",
+ "timeInForce": "GTX",
+ "strategyStatus": "NEW",
+ "bookTime": 1747728000000,
+ "updateTime": 1747728000000
+}

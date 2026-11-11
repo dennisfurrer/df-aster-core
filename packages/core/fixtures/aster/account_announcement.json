@@ -1,0 +1,20 @@
+{
+ "id": 1001,
+ "contents": [
+  {
+   "language": "en",
+   "title": "Platform Maintenance Notice",
+   "subtitle": "Scheduled downtime",
+   "content": "The platform will undergo scheduled maintenance on 2026-06-20 from 02:00 to 04:00 UTC."
+  },
+  {
+   "language": "zh",
+   "title": "平台维护公告",
+   "subtitle": "定期停机",
+   "content": "平台将于2026年6月20日UTC时间02:00至04:00进行定期维护。"
+  }
+ ],
+ "category": "MAINTENANCE",
+ "publishTime": 1750000000000,
+ "jumpLink": "https://www.asterdex.com/en/announcement/1001"
+}

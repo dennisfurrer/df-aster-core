@@ -1,0 +1,27 @@
+{
+ "total": 1,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 50,
+ "hasMore": false,
+ "rows": [
+  {
+   "address": "0x1234...abcd",
+   "symbol": "BTCUSDT",
+   "positionAmt": "20.000",
+   "entryPrice": "6563.66500",
+   "markPrice": "6679.50671178",
+   "unRealizedProfit": "2316.83423560",
+   "liquidationPrice": "5930.78",
+   "leverage": "10",
+   "maxNotionalValue": "20000000",
+   "marginType": "isolated",
+   "isolatedMargin": "15517.54150468",
+   "isAutoAddMargin": "false",
+   "positionSide": "LONG",
+   "notional": "133593.13423560",
+   "isolatedWallet": "13200.70726908",
+   "updateTime": 1625474304765
+  }
+ ]
+}

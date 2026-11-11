@@ -1,0 +1,16 @@
+{
+ "total": 1,
+ "currentPage": 1,
+ "totalPages": 1,
+ "pageSize": 50,
+ "hasMore": false,
+ "rows": [
+  {
+   "address": "0x1234...abcd",
+   "asset": "USDT",
+   "walletBalance": "23.72469206",
+   "price": "1",
+   "balanceInUsd": "23.72469206"
+  }
+ ]
+}

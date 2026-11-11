@@ -1,0 +1,521 @@
+{
+ "source": "eth_account 0.13.7 running the signing functions of asterdex/api-docs demo/aster-code.py",
+ "keys": {
+  "main": "keccak256(\"atlas aster main\")",
+  "agent": "the example agent key in Aster's API docs"
+ },
+ "mainAddress": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+ "agentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+ "messages": [
+  {
+   "name": "docs_order",
+   "msg": "symbol=ASTERUSDT&type=LIMIT&side=BUY&timeInForce=GTC&quantity=20&price=0.5&nonce=1790000000000000&signer=0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+   "chainId": 1666,
+   "signingHash": "0x55ad6cc6fc6601ed9f8600871ff1362eaf580b2cdd6696830dd6e23a3be39a2c",
+   "signature": "0x3e7aabfe211b24e4a80c462c67d2d0c702f546d36e582c80d83c40c18e1886530e41014ed810c89ebe5da337c9ae44ffe318298172bd6f43356b26a8b2f2e3791b"
+  },
+  {
+   "name": "encoded_batch",
+   "msg": "batchOrders=%5B%7B%22symbol%22%3A%22BTCUSDT%22%7D%5D&nonce=1790000000000001&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+   "chainId": 1666,
+   "signingHash": "0x96d2319445cf98323932aed834e6d83c3b862fc709da0d9b38a572c88b8b5cdf",
+   "signature": "0x3f2ca9f4a9c17c3139d913899aa70df1017f4f6db03d69aab7584667eb90613521863704f2e52d8cc418d22332a2bf2a8e546b083653aac13214e185f42dc0c61c"
+  },
+  {
+   "name": "cjk",
+   "msg": "symbol=%E9%BE%99%E8%99%BEUSDT&nonce=1790000000000002&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+   "chainId": 1666,
+   "signingHash": "0xdec91ece69b18b51bf12d82825d1fc98d87a6aa8104e7934a2817c7e9e11aeda",
+   "signature": "0x511bc39d8f195a0dbce141da7979bdae33e9fd4a7c857076bab28adb6aeb06d3770f4e80c0e94a5578ea637a46e17ab2c82f0b68d66c404183ee87273f8a130a1b"
+  },
+  {
+   "name": "empty_params",
+   "msg": "nonce=1790000000000003&user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&signer=0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+   "chainId": 1666,
+   "signingHash": "0xd0ebb431a460fa21e7e5e6905238abe661d93fdc3f88c9a4fffc9509fc129dbe",
+   "signature": "0x6f77670159edc82f25b84ff62300e9ef41b1493e1b994c0fb44babb41879635c1d30764437e82ee018f750c2e0ea86bfea8ee81d38901ce208799ea834677cf61b"
+  }
+ ],
+ "registerAndApproveAgent": [
+  {
+   "name": "demo",
+   "msg": "user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&nonce=1790000000000000&agentName=bot&agentAddress=0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0&expired=1792592000000&signatureChainId=56&canSpotTrade=false&canPerpTrade=true&canWithdraw=false",
+   "ipWhitelist": "",
+   "chainId": 1666,
+   "signingHash": "0xd3c3c53d1be240b93a7447495e30893cd66fa0e5cf55bda3edd7f2a1d29b6219",
+   "signature": "0x4d5678b4632c7ab27ce3ec2ef65994ffda73345485cbb095749529f24d2e9c3508586d901791f67394ab9a3721b117088a0d4c40ff993344dba6e2adc40d998b1c"
+  },
+  {
+   "name": "docs_with_ips",
+   "msg": "user=0xD37536B4329222cA26be1cf0BfFdE7550b663f96&nonce=1790000000000000&agentName=bot&agentAddress=0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0&expired=1792592000000&signatureChainId=56&canSpotTrade=false&canPerpTrade=true&canWithdraw=false&ipWhitelist=1.2.3.4 10.0.0.0/24",
+   "ipWhitelist": "1.2.3.4 10.0.0.0/24",
+   "chainId": 56,
+   "signingHash": "0xd45504a8d9a2eb3f09431b12f4e506ae7d8db9c9016a9fd0c470103f6a345519",
+   "signature": "0x565141708e3165e610307703556e0c1fbc07379fbf10688aa1c51f834ae1216f2bdc00d99c70a22931c0c7663af708ec7745b8734881a36f8e9b4a606970ef1d1c"
+  }
+ ],
+ "mainActions": [
+  {
+   "primaryType": "ApproveAgent",
+   "params": {
+    "agentName": "ivanbuilder",
+    "agentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+    "ipWhitelist": "",
+    "expired": 1967945395040,
+    "canSpotTrade": true,
+    "canPerpTrade": false,
+    "canWithdraw": false,
+    "asterChain": "Mainnet",
+    "user": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "nonce": 1790000000000000
+   },
+   "typedData": {
+    "types": {
+     "EIP712Domain": [
+      {
+       "name": "name",
+       "type": "string"
+      },
+      {
+       "name": "version",
+       "type": "string"
+      },
+      {
+       "name": "chainId",
+       "type": "uint256"
+      },
+      {
+       "name": "verifyingContract",
+       "type": "address"
+      }
+     ],
+     "ApproveAgent": [
+      {
+       "name": "AgentName",
+       "type": "string"
+      },
+      {
+       "name": "AgentAddress",
+       "type": "string"
+      },
+      {
+       "name": "IpWhitelist",
+       "type": "string"
+      },
+      {
+       "name": "Expired",
+       "type": "uint256"
+      },
+      {
+       "name": "CanSpotTrade",
+       "type": "bool"
+      },
+      {
+       "name": "CanPerpTrade",
+       "type": "bool"
+      },
+      {
+       "name": "CanWithdraw",
+       "type": "bool"
+      },
+      {
+       "name": "AsterChain",
+       "type": "string"
+      },
+      {
+       "name": "User",
+       "type": "string"
+      },
+      {
+       "name": "Nonce",
+       "type": "uint256"
+      }
+     ]
+    },
+    "primaryType": "ApproveAgent",
+    "domain": {
+     "name": "AsterSignTransaction",
+     "version": "1",
+     "chainId": 56,
+     "verifyingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+     "AgentName": "ivanbuilder",
+     "AgentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+     "IpWhitelist": "",
+     "Expired": 1967945395040,
+     "CanSpotTrade": true,
+     "CanPerpTrade": false,
+     "CanWithdraw": false,
+     "AsterChain": "Mainnet",
+     "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "Nonce": 1790000000000000
+    }
+   },
+   "signingHash": "0x9fee2bfa5143189d825848d13d8a628e711d9dc926c894dfc86f9fed82c9964d",
+   "signature": "0xc464fb12f3c2fa41400498c46def687ffef4ffd2eb84e06432ce5b203fd13ef51f23c86574d7ed00cb82edd27b0d142a22580a3d42dc31fce297332089466bc61b"
+  },
+  {
+   "primaryType": "UpdateAgent",
+   "params": {
+    "agentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+    "ipWhitelist": "101.198.86.182,192.168.1.100",
+    "canSpotTrade": false,
+    "canPerpTrade": true,
+    "canWithdraw": false,
+    "asterChain": "Mainnet",
+    "user": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "nonce": 1790000000000000
+   },
+   "typedData": {
+    "types": {
+     "EIP712Domain": [
+      {
+       "name": "name",
+       "type": "string"
+      },
+      {
+       "name": "version",
+       "type": "string"
+      },
+      {
+       "name": "chainId",
+       "type": "uint256"
+      },
+      {
+       "name": "verifyingContract",
+       "type": "address"
+      }
+     ],
+     "UpdateAgent": [
+      {
+       "name": "AgentAddress",
+       "type": "string"
+      },
+      {
+       "name": "IpWhitelist",
+       "type": "string"
+      },
+      {
+       "name": "CanSpotTrade",
+       "type": "bool"
+      },
+      {
+       "name": "CanPerpTrade",
+       "type": "bool"
+      },
+      {
+       "name": "CanWithdraw",
+       "type": "bool"
+      },
+      {
+       "name": "AsterChain",
+       "type": "string"
+      },
+      {
+       "name": "User",
+       "type": "string"
+      },
+      {
+       "name": "Nonce",
+       "type": "uint256"
+      }
+     ]
+    },
+    "primaryType": "UpdateAgent",
+    "domain": {
+     "name": "AsterSignTransaction",
+     "version": "1",
+     "chainId": 56,
+     "verifyingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+     "AgentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+     "IpWhitelist": "101.198.86.182,192.168.1.100",
+     "CanSpotTrade": false,
+     "CanPerpTrade": true,
+     "CanWithdraw": false,
+     "AsterChain": "Mainnet",
+     "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "Nonce": 1790000000000000
+    }
+   },
+   "signingHash": "0xba2c115b40b879dbffd4bc1c68f22a096169a520a3f793860de1bd6f2fcccdfd",
+   "signature": "0x84255892b35b67461576f2431e5449eedada21d8c037b8a1a6f9a5a8c70f0a136d7609c95a4a421c93167c81790142fddab8bf8196523115cc6eba84231e458c1b"
+  },
+  {
+   "primaryType": "DelAgent",
+   "params": {
+    "agentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+    "asterChain": "Mainnet",
+    "user": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "nonce": 1790000000000000
+   },
+   "typedData": {
+    "types": {
+     "EIP712Domain": [
+      {
+       "name": "name",
+       "type": "string"
+      },
+      {
+       "name": "version",
+       "type": "string"
+      },
+      {
+       "name": "chainId",
+       "type": "uint256"
+      },
+      {
+       "name": "verifyingContract",
+       "type": "address"
+      }
+     ],
+     "DelAgent": [
+      {
+       "name": "AgentAddress",
+       "type": "string"
+      },
+      {
+       "name": "AsterChain",
+       "type": "string"
+      },
+      {
+       "name": "User",
+       "type": "string"
+      },
+      {
+       "name": "Nonce",
+       "type": "uint256"
+      }
+     ]
+    },
+    "primaryType": "DelAgent",
+    "domain": {
+     "name": "AsterSignTransaction",
+     "version": "1",
+     "chainId": 56,
+     "verifyingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+     "AgentAddress": "0x21cF8Ae13Bb72632562c6Fff438652Ba1a151bb0",
+     "AsterChain": "Mainnet",
+     "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "Nonce": 1790000000000000
+    }
+   },
+   "signingHash": "0x856dfe3973b5c2a0994fba305cffc024e7ce2d1102cf26d3fb086f2b833452eb",
+   "signature": "0x137ab038c436226fc54c804fd0267f9c857b222659ac3697cd8a540dc841f82751d82aaecc3a22b30f7d7985275cc636ab5f3afa81adfe0f051713486a5413151b"
+  },
+  {
+   "primaryType": "ApproveBuilder",
+   "params": {
+    "builder": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "maxFeeRate": "0.00001",
+    "builderName": "ivan3",
+    "asterChain": "Mainnet",
+    "user": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "nonce": 1790000000000000
+   },
+   "typedData": {
+    "types": {
+     "EIP712Domain": [
+      {
+       "name": "name",
+       "type": "string"
+      },
+      {
+       "name": "version",
+       "type": "string"
+      },
+      {
+       "name": "chainId",
+       "type": "uint256"
+      },
+      {
+       "name": "verifyingContract",
+       "type": "address"
+      }
+     ],
+     "ApproveBuilder": [
+      {
+       "name": "Builder",
+       "type": "string"
+      },
+      {
+       "name": "MaxFeeRate",
+       "type": "string"
+      },
+      {
+       "name": "BuilderName",
+       "type": "string"
+      },
+      {
+       "name": "AsterChain",
+       "type": "string"
+      },
+      {
+       "name": "User",
+       "type": "string"
+      },
+      {
+       "name": "Nonce",
+       "type": "uint256"
+      }
+     ]
+    },
+    "primaryType": "ApproveBuilder",
+    "domain": {
+     "name": "AsterSignTransaction",
+     "version": "1",
+     "chainId": 56,
+     "verifyingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+     "Builder": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "MaxFeeRate": "0.00001",
+     "BuilderName": "ivan3",
+     "AsterChain": "Mainnet",
+     "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "Nonce": 1790000000000000
+    }
+   },
+   "signingHash": "0xe8d42edc0deb2450100fc442b259cb8393942871159f215e3cb34e361cef3508",
+   "signature": "0xee3beaad2cb81ccddf494154f4fe2b1f50c12b606f7ec8dd7877ee449e3f889b5639fdd861e93a911432774203f9e333ff9f0eaf7e2cf0c57c40aa41f11ad2fa1b"
+  },
+  {
+   "primaryType": "UpdateBuilder",
+   "params": {
+    "builder": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "maxFeeRate": "0.00002",
+    "asterChain": "Mainnet",
+    "user": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "nonce": 1790000000000000
+   },
+   "typedData": {
+    "types": {
+     "EIP712Domain": [
+      {
+       "name": "name",
+       "type": "string"
+      },
+      {
+       "name": "version",
+       "type": "string"
+      },
+      {
+       "name": "chainId",
+       "type": "uint256"
+      },
+      {
+       "name": "verifyingContract",
+       "type": "address"
+      }
+     ],
+     "UpdateBuilder": [
+      {
+       "name": "Builder",
+       "type": "string"
+      },
+      {
+       "name": "MaxFeeRate",
+       "type": "string"
+      },
+      {
+       "name": "AsterChain",
+       "type": "string"
+      },
+      {
+       "name": "User",
+       "type": "string"
+      },
+      {
+       "name": "Nonce",
+       "type": "uint256"
+      }
+     ]
+    },
+    "primaryType": "UpdateBuilder",
+    "domain": {
+     "name": "AsterSignTransaction",
+     "version": "1",
+     "chainId": 56,
+     "verifyingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+     "Builder": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "MaxFeeRate": "0.00002",
+     "AsterChain": "Mainnet",
+     "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "Nonce": 1790000000000000
+    }
+   },
+   "signingHash": "0x757649df451c4a540d75603fccb6242999eedb15c811774e2d9a7174c87212e2",
+   "signature": "0xe69f5f7379e0984f095fbe603cfbc4db2479e57c94b13db20520937d4281b6973201ef21f9e18133cd7b0e98f4fd17374ec732834d19cf0019f06f66b1b378de1b"
+  },
+  {
+   "primaryType": "DelBuilder",
+   "params": {
+    "builder": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "asterChain": "Mainnet",
+    "user": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+    "nonce": 1790000000000000
+   },
+   "typedData": {
+    "types": {
+     "EIP712Domain": [
+      {
+       "name": "name",
+       "type": "string"
+      },
+      {
+       "name": "version",
+       "type": "string"
+      },
+      {
+       "name": "chainId",
+       "type": "uint256"
+      },
+      {
+       "name": "verifyingContract",
+       "type": "address"
+      }
+     ],
+     "DelBuilder": [
+      {
+       "name": "Builder",
+       "type": "string"
+      },
+      {
+       "name": "AsterChain",
+       "type": "string"
+      },
+      {
+       "name": "User",
+       "type": "string"
+      },
+      {
+       "name": "Nonce",
+       "type": "uint256"
+      }
+     ]
+    },
+    "primaryType": "DelBuilder",
+    "domain": {
+     "name": "AsterSignTransaction",
+     "version": "1",
+     "chainId": 56,
+     "verifyingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+     "Builder": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "AsterChain": "Mainnet",
+     "User": "0xD37536B4329222cA26be1cf0BfFdE7550b663f96",
+     "Nonce": 1790000000000000
+    }
+   },
+   "signingHash": "0x09675119a8b6a221b10f9d046dda533e353bf3f0e35441fcc475136ce2902a9e",
+   "signature": "0x879f2bb3f7df0f5fe2fcf8a078dd3e0aaf200b87e6bd37073bfd906de938384c7dcfed5708bc4c63e7499e3071e4b7478ab177ecbaa39fbbd077b18ae751c1d61c"
+  }
+ ]
+}
